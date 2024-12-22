@@ -18,9 +18,13 @@ $person2 = new Person();
 $person2->name = "Waqas Sheikh";
 $person2->age = 21;
 echo $person2->introduce();
+echo "<br>";
+$person3 = new Person();
+$person3->name = "Muhammad Rizean Tahir";
+$person3->age = 26;
+echo $person3->introduce();
+echo "<br>";
 
-echo "<br>";
-echo "<br>";
 
 
 class Book {
