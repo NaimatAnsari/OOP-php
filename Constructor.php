@@ -21,6 +21,8 @@ echo "<br>";
 $person3 = new Person("Muhammad Rizean Tahir", 26);
 echo $person3->introduce();
 echo "<br>";
-
+$person4 = new Person("Muhammad Rizean Tahir", 26);
+echo $person4->introduce();
+echo "<br>";
 
 ?>

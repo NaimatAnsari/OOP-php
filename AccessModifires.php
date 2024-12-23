@@ -1,6 +1,9 @@
 <?php
 
 class Teachers {
+
+    
+
     private function questions() {
         echo 'Important questions';
     }
