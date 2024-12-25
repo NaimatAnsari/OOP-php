@@ -2,7 +2,7 @@
 
 class Student {
 
-    final function display($name , $class , $age) {
+     function display($name , $class , $age) {
         echo "Student Name is $name . He is Class is $class . He is a Age is $age";
     }
 
