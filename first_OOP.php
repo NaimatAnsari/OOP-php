@@ -59,6 +59,23 @@ $book3->author = "Muhammad Shahzad";
 echo $book3->getDetails();
 
 
+class Company {
+    public $name ;
+    public $address ;
+    public $email ;
+
+    public function profile () {
+        echo "This Company name is $this->name , $this->address , $this->email";
+    }
+
+}
+
+
+$p1 = new Company();
+$p1->name = "Naimat Ansari";
+$p1->address = "Lahore";
+$p1->email = "naimat.ansari@";
+$p1->profile($p1->name , $p1->address , $p1->email);
 
 
 
