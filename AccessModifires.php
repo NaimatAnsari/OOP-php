@@ -2,8 +2,6 @@
 
 class Teachers {
 
-    
-
     private function questions() {
         echo 'Important questions';
     }
@@ -23,8 +21,8 @@ class Manager extends Teachers {
     public function result() {
         parent::result();
     }
-}
 
+}
 
 $s1 = new Teachers();
 $s1 = $s1->seeTeachers();
