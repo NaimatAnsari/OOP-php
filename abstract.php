@@ -1,7 +1,5 @@
 <?php
 
-use LDAP\Result;
-
 abstract class School {
     abstract public function teacherRegister($total);
 }
